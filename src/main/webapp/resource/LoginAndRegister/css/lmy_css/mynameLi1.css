@@ -1,0 +1,215 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+}
+/************************************************************* 顶部 */
+#dingbu{
+	width: 1200px;
+	height: 107px;
+	margin: 0 auto;
+}
+#dingbu a{
+	color: #4AB344;
+}
+#dingbu-img{
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+}
+#dingbu-li{
+	display: inline-block;
+	margin-left:150px;
+}
+#dingbu-li ul li{
+	display: inline-block;
+	width: 90px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	margin: 0px 10px;
+	margin-top: 25px;
+	font-size: 16px;
+}
+#dingbu-gwc{
+	display: inline-block;	
+	float: right;
+	width: 154px;
+	height:42px;
+	margin-top: 30px;
+	margin-right: 5px;
+	text-align: center;
+	line-height: 42px;
+	border: 1px solid #E6E6E6;
+}
+/****************************************************** 中间图片 */
+#zhongjiantu{
+    width: 100%;
+    height: 380px;
+    overflow: hidden;
+    margin: 0px auto;
+    background-image:url("../../img/public/tban.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat no-repeat;
+}
+/********************************************************* 中间操作部分 */
+#zhongjianCZ{
+	width: 1200px;
+	height: 600px;
+	margin: 0 auto;
+}
+/************************************************************* 中间左边 */
+#zjCZleft{
+	width: 200px;
+	height: 400px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 80px;
+	background-color: whitesmoke;
+	border-radius: 25px;
+	border: 1px solid green;
+}
+.zjCZleftli a{
+	color: gray;
+}
+#zjCZleftli1 a{
+	color: gray;
+}
+.zjCZleftli a:hover{
+	font-size: 22px;
+	color: seagreen;
+}
+#zjCZleftli1 a:hover{
+	font-size: 28px;
+	color: seagreen;
+}
+#zjCZleft ul{
+	margin-left: 10px;
+	margin-top: 20px;
+	width: 180px;
+	/* border: darkseagreen solid 2px; */
+	border-radius: 20px;
+	list-style: none;
+	text-align: center;
+}
+.zjCZleftli{
+	height: 53px;
+	line-height: 53px;
+	/* border-left: darkseagreen solid 5px; */
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: green 1px solid;
+}
+#zjCZleftli1{
+	height: 50px;
+	line-height: 50px;
+	font-size: 24px;
+	font-weight: bolder;
+	margin-top: 26px;
+	padding-bottom: 12px;
+	padding-top: 12px;
+	border-bottom: green 1px solid;
+	border-top: green 1px solid;
+}
+/************************************************************* 中间右边 */
+#zjCZright{
+	width: 900px;
+	height: 600px;
+	float: right;
+	color: #2E8B57;
+}
+#zjCZrightTitle{
+	margin-top: 20px;
+	margin-left: 200px;
+	font-size: 30px;
+	font-weight: bolder;
+}
+/*************************************** 表单 */
+#zjCZright ul{
+	list-style: none;
+	margin-top: 40px;
+	margin-left: 60px;
+}
+#zjCZright li{
+	margin: 10px 10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+#zjCZright p{
+	font-size: 18px;
+	font-weight: bold;
+}
+#xinxiTijiao input{
+	/* 提交按钮 */
+	width: 200px;
+	height: 40px;
+	margin-top: 30px;
+	margin-left: 100px;
+	/* border: none; */
+	outline: medium;
+	background-color: #92CA9D;
+	color: darkgreen;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 15px;
+}
+.xinxiLi input{
+	/* display: inline-block; */
+	width: 400px;
+	height: 30px;
+	font-size: 16px;
+	border: #8C8C8C solid 1px;
+	border-radius: 8px;
+	outline: medium;
+}
+
+/****************************************************************底部*/
+.footer{
+    width: 100%;
+    height: 566px;
+    float: left;
+    background: url("../../img/public/footer.jpg")no-repeat center;
+}
+.ft-con{
+    width: 1200px;
+    margin: 0 auto;
+}
+.ft-top{
+    float:left;
+    width: 1200px;
+    height: 180px;
+    margin-top: 20px;
+    border-bottom: 1px solid;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: #848484;
+
+}
+.ft-b{
+    float: left;
+    width: 240px;
+    height: 200px;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+.ft-b h3{
+    padding-bottom: 20px;
+    color: white;
+}
+.ft-b p{
+    line-height: 25px;
+    color: #92CA9D;
+}
+.banq{
+    float: left;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    margin-top: 65px;
+    color: #92CA9D;
+}
+.banq span img{
+    line-height:14px;
+}

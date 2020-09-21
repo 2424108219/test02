@@ -1,0 +1,152 @@
+
+/************************************************************* 中间右边 */
+
+/************************************************************ 订单主体 */
+#zjCZright{
+	width: 900px;
+	height: 600px;
+	float: right;
+	color: #222222;
+}
+#DDtop{
+	width: 100%;
+	height: 17%;
+}
+#DDtop li{
+	float: left;
+	list-style: none;
+	padding: 6%;
+	font-size: 21px;
+}
+
+#max{
+	height: 102%;
+	display: none;
+}
+#max2{
+	height: 102%;
+	display: none;
+}
+#max3{
+	height: 102%;
+	display: none;
+}
+#max4{
+	height: 102%;
+	display: none;
+}
+#max5{
+	height: 102%;
+	display: none;
+}
+
+#DDdownA{
+	width: 100%;
+	height: 1%;
+	background-color: #F2F2F2;
+}
+
+#DDdownB{
+	margin-top: 0%;
+	    width: 100%;
+	    height: 12%;
+	    background-color: #F2F2F2;
+	
+}
+#DDdownB ul{
+	/* margin-right: 0px; */
+	width:100% ;
+	height: 4%;
+	background-color: #F2F2F2;
+}
+#DDdownB li{
+	/* float: left; */
+	display:inline-block;
+	list-style: none;
+	/* padding: 6%; */
+	font-size: 17px;
+	background-color: #F2F2F2;
+}
+#DDdownC{
+	width: 100%;
+	    height: 4%;
+	    background-color: #F8F8F8;
+}
+#DDdownD{
+	width: 100%;
+	    height: 27%;
+}
+#DDdownDa{
+	width: 100%;
+	height: 26%;
+	background-color: #F8F8F8;
+}
+#DDdownDb{
+	width: 899px;
+	height: 25%;
+	border: 1px solid #F2F2F2;
+	border-top:#F8F8F8;
+	position: absolute;
+}
+#DDdownDb li{
+	display: inline-block;
+}
+#DDdownDb li:nth-of-type(2){
+	margin-left: -81px;
+}
+#DDdownDb li:nth-of-type(4){
+	margin-left: -10px;
+}
+#DDdownDb li:nth-of-type(5){
+	margin-left: 14px;
+}
+#DDdownDb li:first-child{
+	vertical-align: middle;
+}
+#DDdownDb li:last-child{
+	    position: relative;
+	    top: 1px;
+	    left: -7px;
+}
+#DDdownDb img{
+	width: 100px;
+	height: 100px;
+}
+#DDdownDba{
+	float: right;
+	width: 88%;
+	height: 62%;
+}
+#DDdownDba ul{
+	/* margin-right: 0px; */
+	padding: 44px;
+	width:100% ;
+	height: 10%;
+}
+#DDdownDba li{
+	/* float: left; */
+	display:inline-block;
+	list-style: none;
+	/* padding: 6%; */
+	font-size: 17px;
+}
+#button2{
+	background-color: red;
+	color: white;
+	border: none;
+	width: 90px;
+	height: 30px;
+}
+
+#DDdownE{
+	width: 100%;
+	height: 9%;
+}
+#DDdownEa{
+	margin-top: -234px;
+	
+}
+#DDdownEa p{
+	float: left;
+	width: 155px;
+}

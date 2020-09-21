@@ -1,0 +1,612 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.the_boss{
+	margin: 0 auto;
+	/* border: 3px solid orange; */
+	width: 1200px; 
+	height: auto;
+	padding-top: 15px;
+}
+
+.t_pro_detail{
+	width: 90px;
+	border-bottom: 1px solid #5FAD01;
+}
+
+.t_pro_detail span{
+	line-height: 45px;
+	font-size: 16px;
+	font-weight: 400;
+	color: #5FAD01;
+	text-align: center;
+	width: 100%;
+	margin-left: 15px;
+}
+
+.the_boss>table{
+	border-top: 1px solid #E6E6E6;
+	margin-top: 15px;
+}
+
+
+.outborder{
+	position: relative;
+	/* border: 1px solid red; */
+	width: 527px;
+	height: 530px;
+	margin-top: 30px;
+	
+}
+
+/*  */
+/*放大镜*/
+.pro_show_img{
+	width:500px;
+	z-index:999;
+	position:absolute;
+	left:25px;
+	/* border: 1px solid green; */
+}
+#showbox { 
+	background:#eee;
+	border: 1px solid #E6E6E6;
+}
+#showbox span {
+	 background:url(../../img/szh_img/shopdetail/whitebg.png) repeat;
+	 }
+#showsum { 
+	left:28px; 
+	margin-top:10px;
+	}
+#showsum span {
+	 border:1px solid #ddd;
+}
+#showsum span.sel {
+	 border:1px solid #f60;
+}
+
+.showpage {
+	 width:400px; 
+	 position:relative;
+	 }
+.showpage a { 
+	display:block; width:15px; 
+	border:1px solid #ddd; 
+	height:60px; line-height:60px; 
+	background:#eee; 
+	text-align:center; 
+	font-size:18px; 
+	position:absolute; 
+	left:0; top:-62px; 
+	text-decoration:none; 
+	color:#999;}
+.showpage a#shownext {
+	 left:auto; right:-100px;
+	 }
+.showpage a:hover {
+	 background:#ccc; 
+	 color:#777;}
+
+
+/* 右边 */
+.pdLayoutR{
+	max-width: 545px;
+	min-width: 350px;
+	margin:auto;
+	margin-top: -110px;
+	/* border: 2px solid green; */
+}
+
+.J_productTitle{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: "微软雅黑";
+	color: #585858;
+	text-align: left;
+	width: auto;
+	float: none;
+}
+
+.J_productTitle span{
+	vertical-align: middle;
+}
+
+.pd_propTable{
+	margin-top: 34px;
+	position: relative;
+}
+
+.fk-propTable{
+	border-collapse: collapse;
+	border-spacing: 7px;
+	width: 100%;
+}
+
+.proName{
+	width: 75px;
+	min-width: 75px;
+	max-width: 75px;
+	line-height: 42px;
+	text-align: right;
+	position: relative;
+	color: #666666;
+	letter-spacing: 1px;
+}
+
+.propValue{
+	color: #4AB344;
+	line-height: 32px0;
+	display: inline-block;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.f-mallUnit{
+	vertical-align: middle;
+	font-size: 26px;
+}
+
+.realMallAmount{
+	font-size: 40px;
+	vertical-align: middle;
+	line-height: 105%;
+	font-family: "Arial";
+	font-weight: 700;
+}
+
+.fk-proSatifySum{
+	border-top: 1px solid #EEEEEE;
+	border-bottom: 1px solid #EEEEEE;
+	height: 72px;
+	position: relative;
+	margin: 20px 0;
+	min-width: 350px;
+}
+
+.f-proSatifySumWrap{
+	line-height: 74px;
+	position: absolute;
+	height: 26px;
+	top: 50%;
+	margin-top: -13px;
+}
+
+.f-satifyDetail{
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	margin-right: 2px;
+}
+
+.f-satifyDetail span{
+	vertical-align: top;
+}
+
+.salesVolume{
+	width: 70px;
+	display: inline-block;
+	text-align: right;
+	color: #666666;
+}
+
+.f-pdDetailBorder{
+	border-left: 1px solid #EEEEEE;
+	height: 26px;
+	width: 1px;
+	float: left;
+	margin: 0 0 0 18px;
+}
+
+
+.f-countBtn{
+    border: 1px solid #EEE;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    left: 0;
+    top: 25px;
+}
+.mallJian {
+    background: white url(../../img/szh_img/shopdetail_icon/vbg01.png?v=201705021426) -625px -974px no-repeat;
+    top: 0;
+}
+.disableMallJian {
+    background: white url(../../img/szh_img/shopdetail_icon/vbg01.png?v=201705021426)-625px -1005px no-repeat;
+}	 
+
+
+.fk-pd5MallCartCount{
+	height: 35px;
+	line-height: 34px;
+	margin-top: 16px;
+}
+
+.f-cartbuyCountWrap{
+	float: left;
+}
+
+.f-propName{
+	width: 75px;
+	display: inline-block;
+	text-align: right;
+	position: relative;
+	margin-right: 8px;
+	color: #666666;
+	white-space: nowrap;
+	letter-spacing: 1px;
+}
+
+.g_itext{
+	width: 45px;
+	height: 30px;
+	line-height: 30px;
+	border-color: #EEEEEE;
+	text-align: center;
+	display: inline-block;
+	padding: 4px;
+}
+
+.f-buyCountBtn{
+	height: 40px;
+	width: 16px;
+	position: relative;
+	float: left;
+	margin-left: 7px;
+	margin-right: 14px;
+}
+
+
+
+.optionMsg{
+	padding: 5px 0;
+	margin-top: 10px;
+	width: auto;
+	text-align: left;
+	display: none;
+	margin: 0 auto;
+}
+
+
+
+/* 点击购买和加入购物车 */
+.last_confirm{
+	width: 100%;
+	height: 42px;
+	background-color: white;
+	margin-top: 30px;
+	margin-left: 0px;
+}
+
+.button_1{
+	width: 160px;
+	height: 42px;
+	line-height: 42px;
+	border: 1px solid  #4AB344;
+	border-radius: 5px;
+	margin-right: 20px;
+	text-align: center;
+	cursor: pointer;
+	color: #4AB344;
+	font-size: 14px;
+	font-weight: normal;
+	float: left;
+}
+
+.button_buy{
+	background-color:#4AB344 ;
+	color: white;
+}
+
+.productGuarantee {
+    padding-top: 25px;
+    font-size: 14px;
+    color: #666;
+    clear: both;
+}
+
+.pName{
+	line-height: 20px;
+	margin-right: 25px;
+	cursor: pointer;
+	float: left;
+}
+
+.pValue {
+    margin-right: 16px;
+    margin-bottom: 13px;
+    cursor: pointer;
+    float: left;
+}
+
+.fk-mainFontColor {
+    color: #4ab344;
+}
+
+.icon-guarantee {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+.guaranteeName {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 16px;
+    height: 16px;
+}
+
+
+
+/*  */
+
+/* 商品内容 */
+.prod_contains{
+	/* border: 1px solid blue; */
+	width:1190px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0 0;
+}
+
+
+/* 三个div的标题样式 */
+
+.hd{
+    float: left;
+    width: 100%;
+    height: 60px;
+    border: 1px solid #EEE;
+}
+.hd ul{
+    float: left;
+	list-style: none;
+}
+.hd li{
+    float: left;
+    width:160px;
+    line-height: 57px;
+    border-right: 1px solid #EEE;
+	text-align: center;
+	color: #000000;
+}
+.hd1{
+    float: left;
+    width: 160px;
+    height: 5px;
+}
+.acti{
+   background-color: #5FAD01;
+}
+.active{
+    color: #5FAD01;
+}
+
+/* 底下三个div的样式 */
+.bd1{
+    display: block;
+}
+
+
+
+/* 产品详情 */
+.fk-datailedDesc{
+	display: block;
+	height: auto;
+	/* overflow-y: hidden; */
+}
+
+.richContent{
+	margin-top: 30px;
+	line-height: 1.8;
+	padding: 0;
+	width: 100%;
+	text-align: left;
+	overflow: hidden;
+}
+
+.richContent p{
+	text-align: center;
+	margin: 0;
+}
+
+.richContent p img{
+	border: 0;
+	vertical-align: top;
+}
+/* 产品评论 */
+.pro_comment{
+	display: block;
+	height: auto;
+	/* overflow-y: hidden; */
+	font-size: 14px;
+	border-spacing: 0px;
+	font-family: "微软雅黑";
+	color: #666666;
+	text-align: left;
+	font-weight: 400;
+}
+
+.msgBorder{
+	width: 100%;
+	height: auto;
+	min-height: 100px;
+	
+}
+
+.fk_pdMemberCommetn{
+	
+	padding: 30px 0 5px;
+	border-bottom: 1px solid #EEEEEE;
+	border-top: none;
+	margin: 0;
+	width: auto;
+	position: relative;
+	clear: both;
+	height: auto;
+	max-height: none;
+}
+
+
+.f-msgBorderMemberImg{
+	position: absolute;
+	left: 25px;
+	top: 30px;
+}
+
+.msgBoard_member_imgOuter{
+	position: relative;
+	width: 50px;
+	height: 50px;
+	overflow: hidden;
+	border-radius: 50%;
+	border: 2px solid #d9d9d9;
+}
+
+.msgBoard_member_headpic{
+	height: 50px;
+	position: relative;
+	border: 0;
+	vertical-align: top;
+	display: inline-block;
+}
+
+
+.pd-p180{
+	padding-left: 80px;
+}
+
+
+.msgBoard_marginLeft{
+	margin-left: 20px;
+}
+
+.f-menberName{
+	text-align: left;
+	color: #494949;
+	
+	float: left;
+	position: static;
+	width: 71px;
+	height: 38.4px;
+}
+
+
+.msgTime{
+	float: left;
+	position: static;
+	margin-left: 20px;
+	color: #828282;
+}
+
+.f-memberCommentWrap{
+	clear: both;
+	margin-left: 20px;
+	
+}
+
+.pd-commentTabble{
+	width: 100%;
+	table-layout: fixed;
+}
+
+.pd-commTabbleTd{
+	padding-right: 20px;
+	word-wrap: break-word;
+}
+
+.userMsg{
+	color: #555555;
+	margin-top: 3px;
+	min-height: 42px;
+	line-height: 1.8;
+}
+
+.pd-h30{
+	height: 30px;
+}
+
+/* 销售记录头部 */
+.table_header{
+	width: 100%;
+	font-weight: 400;
+	margin-top: 30px;
+	text-align: center;
+	padding: 0 27px;
+	height: 43px;
+	background:#F3F3F3;
+	color: #555;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	border-spacing: 0;
+}
+
+.h_creater{
+	width: 20%;
+}
+
+.h_optionType{
+	width: 45%;
+}
+
+.h_amount{
+	width: 15%;
+}
+
+.h_paidTime{
+	width: 20%;
+}
+
+/* 销售记录身体 */
+.sale_record_body{
+	color: #666;
+	text-align: center;
+	padding: 0 27px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	border-spacing: 0;
+}
+
+.table_body{
+	border-collapse: collapse;
+	width:100%;
+}
+
+.b_creater{
+	text-align: left;
+	width: 20%;
+}
+
+.b_creater .b_creater_img{
+	margin-left: 35%;
+	margin-right: 12px;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	position: relative;
+	top: 2px;
+	right: -2px;
+	background:url(../../img/szh_img/shopdetail_icon/memberLevel.png) no-repeat;
+}
+
+
+.b_optionType{
+	width: 45%;
+}
+
+.b_amout{
+	width: 15%;
+}
+
+.b_paidTime{
+	width: 20%;
+}
+
+.sale_record_body tr td{
+	height: 64px;
+	vertical-align: middle;
+	border-bottom: 1px solid #E6E6E6;
+}

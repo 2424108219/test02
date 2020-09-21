@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* 头部导航 */
+.headr{
+    width: 100%;
+    height: 107px;
+	padding-top: 40px;
+}
+.heard-con{
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 107px;
+	
+}
+.headr-nav{
+    float: left;
+    position: absolute;
+    width: 600px;
+    height: 107px;
+    left: 25%;
+
+}
+.headr-nav li{
+    float: left;
+    width: 90px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 25px;
+}
+.headr-nav li a{
+    color: #222222;
+}
+.sptopfoot {
+    clear: both;
+    background:#ffffff;
+    height: 2px;
+    position: relative;
+}
+.spbottom {
+    background:#4AB344;
+    height: 2px;
+    width:90px;
+    position: absolute;
+    top: 0;
+    left: 130px;
+    overflow: hidden;
+    transition: all 1s;
+}
+.headr-right{
+    position: relative;
+    float: right;
+    width: 154px;
+    height:42px;
+    margin-top: 30px;
+    text-align: center;
+    line-height: 42px;
+    overflow: hidden;
+    border: 1px solid #E6E6E6;
+
+}
+.hr-car{
+    position: absolute;
+    width: 300px;
+    height: 140px;
+    right:-1px;
+    line-height: 140px;
+    background-color: white;
+    color: #c6c6c6;
+    border: 1px solid #E6E6E6;
+}
+
+/* 头部导航结束 */
+#page {
+	width: 750px;
+	margin:0 auto;
+	text-align: center;
+}
+table {	
+	border: 0px;
+	width: 1100px;
+	margin: 0px auto;
+	 border-collapse: collapse;
+	 
+	}
+#jiesuan{	height:50px;
+	    background-color: white;
+	    width: 1102px;
+	    margin: 0px auto;
+	    }
+#jiesuan .t{
+	width:139px;
+float:right;
+line-height:30px;
+margin-right: 2px;
+}
+td{	
+	text-align:center;
+	border: 0px solid #CCC;
+	}
+#btnOrder {	
+	background-color:#ff6537;
+height: 50px;	
+width: 140px;
+font-size: 20px;
+letter-spacing: normal;	
+border: medium none;
+line-height: 50px;
+padding: 0px;
+font-family: "curlz mt";
+}
+.inputCountCss {
+	width: 30px;	
+	text-align: center;
+}
+.count{
+	padding-left: 40px;
+}
+.count .addCss,.count input ,.count .reduceCss{float:left;}
+.count .addCss,.count .reduceCss{
+	height:20px;
+	width:22px;
+	padding: 0px
+	background:#f0f0f0;
+	text-align:center;
+	line-height:18px;
+	color:#444;
+	float:left;
+	border: 0px;
+	}
+.second img{width:60px;height:50px; align:absmiddle;}
+.inputCountCss {
+	height: 15px;
+    width: 25px;
+    text-align: center;
+}
+tr:first-of-type td{
+	
+	height: 45px;
+	line-height: 45px;
+	background-color: white;
+	font-size: 15px;
+	border: 1px solid #ddd;
+}
+tr:first-of-type td:nth-child(4){
+	width: 70px;
+	
+}
+tr:first-of-type~tr {
+	border-bottom: 1px solid ;
+	border-bottom-color: rgb(234,234,234);
+	background-color: white;
+}
+p{
+	display: inline-block;
+	margin-top:5px ;
+	margin-bottom: 5px;
+	vertical-align: middle;
+}
+p:first-child{
+	margin-left: 15px;
+}
+p:nth-child(2){
+	margin-left: 5px;
+}
+tr:first-of-type~tr td:nth-child(2){
+	text-align: left;
+	
+}
+.t{
+	padding-top: 10px;
+}
+.jisuanbtn{
+	padding-top: 0px;
+}
+.total_count em{
+	font-style: normal;
+	color: pink;
+	font-size: 16px;
+	
+}
+tbody{
+	background-color:white ;
+}
+.checkCss{
+	margin-right: 32px;
+}
+.a{
+	background: url(../../img/public/vbg01.png)  0 -376px no-repeat;
+	display: inline-block;
+    width: 17px;
+    height: 20px;
+	cursor: pointer;
+    vertical-align: middle;
+	
+}

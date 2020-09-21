@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* 头部 */
+.head_comments{
+	margin: 10px 0;
+	margin-left: 5px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #CFD2D4;
+}
+
+#send_comments_head{
+	color: rgb(51, 51, 51);
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.head_comments small{
+	font-size: 14px;
+	color: rgb(51, 51, 51);
+}
+
+/* 主体 */
+.comment-list{
+	/* border: 1px solid red; */
+	width: 960px;
+	height: 240px;
+	position: relative;
+	padding-left: 5px;
+	margin-top: 5px;
+	color: #333333;
+}
+
+.comment_left{
+	/* border: 2px solid orange; */
+	width: 160px;
+	height: auto;
+	float: left;
+}
+
+.comment_right{
+	/* border: 2px solid green; */
+	width: 660px;
+	height: auto;
+	float: left;
+	position: relative;
+}
+
+
+/* 商品图片 */
+.item-pic{
+	/* border: 3px solid pink; */
+	width: 140px;
+	height: 140px;
+	border: 1px solid gainsboro;
+}
+
+.item-pic img{
+	width: 140px;
+	height: 140px;
+}
+
+
+/* 商品名字 */
+.item-title{
+	margin-top: 5px;
+	/* border: 1px solid seagreen; */
+	width: 150px;
+}
+
+.item-name{
+	line-height: 18px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+.item-info{
+	margin-top:10px;
+	margin-bottom: 3px;
+	line-height: 18px;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+/* 三种评论选择 */
+
+.item-opinion{position: absolute;left:0px;top: 0px;right:0px;width: auto;max-width:600px ;}
+
+
+.item-opinion{border-top: 1px solid #F5F8FA;width: 100%;overflow: hidden;padding:10px 0px ;}
+.item-opinion li{float:left;width: 33.33%;text-align: center;font-size:14px ;cursor: pointer; list-style: none;}
+.item-opinion li i{display:inline-block;width:16px;height:16px;margin-right: 5px;}
+.item-opinion li i.op1,.item-opinion li i.op2{background:url(../../img/szh_img/shopdetail_icon/iconfont-evaluate.png);background-size:16px 16px;}
+.item-opinion li i.op3{background:url(../../img/szh_img/shopdetail_icon/iconfont-bad.png);background-size:16px 16px;}
+
+.item-opinion li i.op1.active{background:url(../../img/szh_img/shopdetail_icon/iconfont-good.png);background-size:16px 16px;}
+.item-opinion li i.op2.active{background:url(../../img/szh_img/shopdetail_icon/iconfont-middle.png);background-size:16px 16px;}
+.item-opinion li i.op3.active{background:url(../../img/szh_img/shopdetail_icon/iconfont-badon.png);background-size:16px 16px;}
+
+
+
+/*  */
+.item-comment{
+	max-width: 600px;
+	/* border: 1px dotted red; */
+	font-size: 14px;
+	color: #333333;
+	width: 100%;
+	position: absolute;
+	top:40px;
+}
+
+.item-comment textarea{
+	min-height: 100px;
+	border: 1px solid #F5F8FA;
+	padding: 5px;
+	margin: 5px 0px;
+	width: 97%;
+	font-size: 16px;
+	outline: 0px none;
+}
+
+/* 上传图片 */
+.filePic{
+	/* border: 1px dotted orange; */
+	width: 40px;
+	height: 40px;
+	position: relative;
+	background-image: url(../../img/szh_img/shopdetail_icon/add.png);
+	background-size: 39px;
+	background-position: 0px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	overflow-y: hidden;
+	top: 165px;
+}
+
+
+.inputPic{
+	display: block;
+	opacity: 0; 
+	cursor: pointer; 
+	width: 90%;
+	height: 140%;
+	/* border: 1px solid gray; */
+	position: absolute;
+	top: -20px;
+}
+
+
+/* 发表评论 */
+.send_comment{
+	border: 1px solid peru;
+	font-size: 14px;
+	color: #FFFFFF;
+	background-color: #D7342E;
+	text-align: center;
+	width: 86px;
+	height: 32.4px;
+	line-height: 32.4px;
+	float: right;
+	position: relative;
+	top: 80px;
+	right: 75px;
+	cursor: pointer;
+}

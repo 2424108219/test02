@@ -1,0 +1,137 @@
+/*--------------------------登录页主体------------------------------*/
+#sec_body{
+	padding: 39px 327px 32px 0px;
+	position: relative;
+	z-index: -1;
+}
+.inner_body{
+	width: 300px;
+	margin: 0 623px;
+}
+.f_r{
+	align-self: center;
+	color: white;
+}
+.sec_form_btn{
+	font-size: 14px;
+	color: #06c;
+	line-height: 50px;
+	text-align: center;
+	background-color: red;
+}
+.sec_form_tag{
+	width: 330px;
+	padding-top: 40px;
+}
+.sec_form_tag h3{
+	font-size: 14px;
+	color: #666;
+	font-weight: bold;
+	line-height: 30px;
+}
+.sec_form_tag a{
+	font-size: 14px;
+	color: #06c;
+	line-height: 30px;
+}
+.sec_form_tag a:hover{
+	color: #f60;
+}
+.sec_form_item{
+	height: 24px;
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	line-height: 24px;
+	padding: 14px 18px;
+}
+ .userHead{
+ 	margin-left: 3px;
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	vertical-align: middle;
+	background: url(../../../../resource/LoginAndRegister/img/zzh_img/img/userHead.png) no-repeat;
+}
+ .userLock{
+	display: inline-block;
+	height: 24px;
+	width: 24px;
+	vertical-align: middle;
+	background: url(../../../../resource/LoginAndRegister/img/zzh_img/img/lock.png) no-repeat;
+}
+.sec_form_item input{
+	vertical-align: middle;
+	width: 200px;
+	height: 28px;
+	border: 0px none;
+	line-height: 24px;
+	font-size: 14px;
+	padding-left: 20px;
+}
+
+
+.sec_form_auto{
+	padding-top: 5px;
+	margin-bottom: 15px;
+}
+.sec_form_auto a{
+	color: #666;
+}
+.sec_more_font{
+	color: gray;
+	font-size: 16px;
+	height: 4px;
+	text-align: center;
+	padding: 20px 3px;
+	background-color: white;
+}
+.sec_more_type{
+	height: 1px;
+	line-height: 35px;
+	/*border: 1px solid red;*/
+}
+.sec_more_type li a{
+	display: inline-block;
+	margin-right: 15px;
+	width: 35px;
+	height: 35px;
+	/*border: 1px solid green;*/
+}
+.sec_more_type li:nth-of-type(1) a{
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(2) a{
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(3) a{
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(4) a{
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(1) a:hover{
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(2) a:hover{
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(3) a:hover{
+	background-size: 100% 100%;
+}
+.sec_more_type li:nth-of-type(4) a:hover{
+	background-size: 100% 100%;
+}
+.sec_load_more{
+	height: 35px;
+	line-height: 35px;
+	color: #666;
+	vertical-align: middle;
+}
+.sec_load_more span{
+	display: inline-block;
+	width: 20px;
+	height: 15px;
+	margin-left: 5px;
+	background-size: 100% 100%;
+	vertical-align: middle;
+}

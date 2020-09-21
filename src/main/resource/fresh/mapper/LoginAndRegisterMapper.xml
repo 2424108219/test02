@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.kgc.fresh.mapper.LoginAndRegister">
+    <!--查询用户名是否存在-->
+    <select id="isUserNameExist"  parameterType="String" resultType="com.kgc.fresh.beans.User">
+      SELECT * from user where userName=#{userName};
+    </select>
+
+    <!--查询手机号是否注册-->
+    <select id="isUserTelExist"  parameterType="String" resultType="com.kgc.fresh.beans.User">
+      SELECT * from user where phone=#{userTel};
+    </select>
+
+    <!--用户账号注册-->
+    <insert id="register" parameterType="com.kgc.fresh.beans.User">
+      insert into user (userName,userPwd,phone,createDate) values (#{userName},#{userPwd},#{phone},now());
+    </insert>
+
+    <!--根据用户名和密码进行用户查询-->
+    <select id="getUser"  parameterType="String" resultType="com.kgc.fresh.beans.User">
+      SELECT * from user where userName=#{param1} and userPwd=#{param2};
+    </select>
+</mapper>

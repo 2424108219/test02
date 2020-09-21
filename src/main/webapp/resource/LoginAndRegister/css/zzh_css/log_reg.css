@@ -1,0 +1,27 @@
+/*--------------------------登录和注册的公有样式------------------------------*/
+
+.f_l{
+	float: left;
+}
+.f_r{
+	float: right;
+}
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+/*--------------------------头部导航样式------------------------------*/
+
+/*--------------------------登录注册公共按钮样式------------------------------*/
+.sec_form_btn{
+	width: 330px;
+	height: 50px;
+	border: 0px none;
+	border-radius: 5px;
+	background-color: #ff3441;
+	font-size: 16px;
+	color: #fff;
+	cursor: pointer;
+	line-height: 50px;
+}

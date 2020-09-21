@@ -1,0 +1,81 @@
+.first{
+	width: 100%;
+}
+
+.first .nav{
+    float: left;
+    position: absolute;
+    width: 100%;
+    height: 30px;
+	background-color: #F1F3F4;
+	position: fixed;
+	top: 0;
+	border-bottom: #DADCE0 solid;
+	z-index:999;
+	list-style: none;
+	
+}
+.first .in-nav{
+	 float:right;
+	width:87%;
+	height: 30px;
+	background-color: #F1F3F4;
+	border-bottom: #DADCE0 solid; 
+	position: relative;
+	z-index: 998;
+}
+.first .inin-nav{
+	margin-top: -31px;
+	float: right;
+	width: 21%;
+	height: 29px;
+	background-color: #F1F3F4;
+	border-bottom: #DADCE0 solid;
+	position: relative;
+	z-index: 998;
+}
+.first #name{
+	margin-top: -11px;
+}
+.first #button{
+	margin-top: 1px;
+	width: 70px;
+	height: 27px;
+	border: #DADCE0 solid;
+}
+.first #button:hover{
+	color: #45A2FF;
+	border: #45A2FF solid;
+}
+.first .nav li{ 
+	top: 0;
+	float: left;
+	width: 130px;
+	height: 81px;
+	line-height: 50px;
+	margin-left: -41px;
+	font-size: 14px;
+	border: none;
+} 
+.first #shopping{
+	margin-top: 30px;
+	width: 21%;
+	/* width: 350px; */
+	background-color: white;
+	border: #EEEEEE solid;
+	text-align: center;
+	padding-bottom: 10px;
+	display: none;
+}
+.first #shopping p{
+	height: 90px;
+	    font-size: 16px;
+	    color: gray;
+}
+.first #shop{
+	width: 157px;
+	height: 42px;
+	background-color: red;
+	color: white;
+	border:none;
+}
